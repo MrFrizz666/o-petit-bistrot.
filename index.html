@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/animations.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/menu.css" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Aller au contenu</a>
@@ -18,7 +19,7 @@
       <a class="brand" href="#top" aria-label="Ô Petit Bistrot, accueil">Ô <span>Petit</span> Bistrot</a>
       <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
       <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
-        <a href="#maison">La maison</a><a href="#carte">La carte</a><a href="#galerie">Galerie</a><a href="#avis">Avis</a>
+        <a href="#maison">La maison</a><a href="#carte">La carte</a><a href="#galerie">Galerie</a><a href="#avis">Avis</a><a href="#contact">Contact</a>
         <a class="nav-book" href="#contact">Nous contacter</a>
       </nav>
     </header>
@@ -56,19 +57,19 @@
       </section>
 
       <section class="menu-section section" id="carte">
-        <div class="section-heading reveal"><p class="eyebrow">À la carte</p><h2>Une cuisine qui <em>rassemble.</em></h2><p></p></div>
+        <div class="section-heading reveal"><p class="eyebrow">À la carte</p><h2>Une cuisine qui <em>rassemble.</em></h2><p>Exemple de carte · elle change selon les arrivages.</p></div>
         <div class="menu-tabs reveal" role="tablist" aria-label="Carte du restaurant">
-          <button class="active" role="tab" aria-selected="true" data-menu="entrees">Entrées</button><button role="tab" aria-selected="false" data-menu="plats">Plats</button><button role="tab" aria-selected="false" data-menu="desserts">Desserts</button>
+          <button class="active" role="tab" aria-selected="true" data-menu="classiques">Pizzas classiques</button><button role="tab" aria-selected="false" data-menu="armeniennes">Pizzas arméniennes</button><button role="tab" aria-selected="false" data-menu="speciales">Pizzas spéciales</button><button role="tab" aria-selected="false" data-menu="boissons">Boissons</button>
         </div>
-        <div class="menu-panel active reveal" id="entrees"></div><div class="menu-panel" id="plats"></div><div class="menu-panel" id="desserts"></div>
-        <div class="menu-footer reveal"><a class="button button-dark" href="#contact">Nous contacter</a><span>Options végétariennes sur demande</span></div>
+        <div class="menu-panel active reveal" id="classiques"></div><div class="menu-panel" id="armeniennes"></div><div class="menu-panel" id="speciales"></div><div class="menu-panel" id="boissons"></div>
+        <div class="menu-footer reveal"><a class="button button-dark" href="#contact">Nous contacter</a><span>Pizzas disponibles sur place, à emporter ou en livraison</span></div>
       </section>
 
       <section class="gallery" id="galerie" aria-label="Galerie du bistrot"><figure class="gallery-item large reveal"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85" alt="Plat de saison dressé avec soin" /></figure><figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=850&q=85" alt="Tables dressées pour le service" /></figure><figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=850&q=85" alt="Verres de vin sur une table" /></figure><figure class="gallery-item quote-tile reveal"><blockquote>« La vie est trop courte pour boire du mauvais vin. »</blockquote><cite>— Anonyme gourmand</cite></figure></section>
 
       <section class="reviews section section-cream" id="avis"><div class="section-heading centered reveal"><p class="eyebrow">Ils en parlent</p><h2>Des mots qui nous <em>touchent.</em></h2></div><div class="review-slider reveal"><button class="slider-arrow previous" aria-label="Avis précédent">←</button><div class="review-track"><article class="review active"><div class="stars">★★★★★</div><blockquote>« Un vrai coup de cœur. Une cuisine précise, généreuse et une équipe aux petits soins. Le genre d’adresse que l’on garde précieusement. »</blockquote><p>Camille R. <span>· Google</span></p></article><article class="review"><div class="stars">★★★★★</div><blockquote>« Des produits sublimes et une ambiance qui fait oublier le temps. Mention spéciale pour le cabillaud et le service plein de chaleur. »</blockquote><p>Julien M. <span>· Tripadvisor</span></p></article><article class="review"><div class="stars">★★★★★</div><blockquote>« Le bistrot parisien comme on l’aime : simple en apparence, remarquable dans l’assiette. Nous reviendrons sans hésiter. »</blockquote><p>Sarah L. <span>· Google</span></p></article></div><button class="slider-arrow next" aria-label="Avis suivant">→</button></div><div class="slider-dots" aria-label="Choisir un avis"><button class="active" aria-label="Avis 1"></button><button aria-label="Avis 2"></button><button aria-label="Avis 3"></button></div></section>
 
-      <section class="contact section" id="contact"><div class="contact-details reveal"><p class="eyebrow">Nous trouver</p><h2>À deux pas des <em>bons moments.</em></h2><div class="contact-columns"><div><h3>Adresse</h3><p>15 route des Trois lucs à la Valentine<br />13012 Marseille</p><a href="https://www.google.com/maps/place/15+Rte+des+Trois+Lucs+%C3%A0+la+Valentine,+13012+Marseille/@43.3120208,5.4635574,17z/data=!3m1!4b1!4m6!3m5!1s0x12c9be888ce67db9:0xe111af867e74208c!8m2!3d43.3120208!4d5.4661323!16s%2Fg%2F11c0pn192t?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Itinéraire →</a></div><div><h3>Horaires</h3><p>Mar. — Ven. : 12h — 14h30<br />Mar. — Sam. : 19h — 22h30<br />Dim. & Lun. : fermé</p></div><div><h3>Contact</h3><p><a href="tel:+33184250000">01 84 25 00 00</a><br /><a href="mailto:bonjour@opetitbistrot.fr">bonjour@opetitbistrot.fr</a></p></div></div></div><a class="map-placeholder reveal" href="https://www.google.com/maps/place/15+Rte+des+Trois+Lucs+%C3%A0+la+Valentine,+13012+Marseille/@43.3120208,5.4635574,17z/data=!3m1!4b1!4m6!3m5!1s0x12c9be888ce67db9:0xe111af867e74208c!8m2!3d43.3120208!4d5.4661323!16s%2Fg%2F11c0pn192t?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" aria-label="Ouvrir la carte"><span>15<br />Rte des 3 lucs<br />à la Valentine</span><b>↗</b></a></section>
+      <section class="contact section" id="contact"><div class="contact-details reveal"><p class="eyebrow">Nous trouver</p><h2>À deux pas des <em>bons moments.</em></h2><div class="contact-columns"><div><h3>Adresse</h3><p>18, rue des Gourmets<br />75011 Paris</p><a href="https://maps.google.com/?q=18+rue+des+Gourmets+75011+Paris" target="_blank" rel="noopener">Itinéraire →</a></div><div><h3>Horaires</h3><p>Mar. — Ven. : 12h — 14h30<br />Mar. — Sam. : 19h — 22h30<br />Dim. & Lun. : fermé</p></div><div><h3>Contact</h3><p><a href="tel:+33184250000">01 84 25 00 00</a><br /><a href="mailto:bonjour@opetitbistrot.fr">bonjour@opetitbistrot.fr</a></p></div></div></div><a class="map-placeholder reveal" href="https://maps.google.com/?q=18+rue+des+Gourmets+75011+Paris" target="_blank" rel="noopener" aria-label="Ouvrir la carte"><span>18<br />RUE DES<br />GOURMETS</span><b>↗</b></a></section>
     </main>
     <footer class="site-footer"><a class="brand" href="#top">Ô <span>Petit</span> Bistrot</a><p data-content="tagline">Une cuisine de saison, faite avec amour.</p><div class="socials"><a data-content="instagram" href="#" aria-label="Instagram">Instagram</a><a data-content="facebook" href="#" aria-label="Facebook">Facebook</a></div><p class="copyright">© <span id="year"></span> Ô Petit Bistrot · Tous droits réservés</p></footer>
     <button class="back-to-top" aria-label="Retour en haut">↑</button><script src="js/contenu-client.js"></script><script src="js/script.js"></script>
